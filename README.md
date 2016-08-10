@@ -40,6 +40,27 @@ $ npm run deploy-file
 $ npm run deploy-app
 ```
 
+### Directory structure
+
+```
+|---app # All React projects goes here
+|----index
+|-----start.jsx # index.html require this script
+|---assets # Client Files here
+|----images
+|-----icon.jpg
+|---templates # React html templates
+|----index.html
+|---webpack
+|----routes.js # Webpack Routes
+|----webpack.deploy.config.js # Webpack config of deployment
+|----webpack.dev.config.js # Webpack config of develop
+|---main.js # Electron entry point
+|---package.json
+|---.babelrc # Babal's Configurations
+```
+
+
 ## LICENSE
 
 Copyright 2015-2016 Xu Xiaomeng(@sekaiamber)
